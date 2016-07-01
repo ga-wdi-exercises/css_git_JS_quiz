@@ -62,7 +62,7 @@ answer goes here
 
 ## Question 7
 
-Write a function that takes 3 arguments(numbers) that finds the sum of all three numbers
+Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers. 
 
 ```js
 answer goes here
