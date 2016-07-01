@@ -69,7 +69,7 @@ answer goes here
 
 ## Question 6
 
-Write a for loop such that you say hello to each name in the `names` array
+Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
 answer goes here
