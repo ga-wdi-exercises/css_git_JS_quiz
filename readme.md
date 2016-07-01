@@ -32,6 +32,15 @@ answer goes here
 
 ## Question 4
 
+Describe the difference between a relative and absolute path, give an example of each.
+
+```
+answer goes here
+
+```
+
+## Question 5
+
 What does the following selector do?  `ul.dropdown > li`?
 
 Select 1:
@@ -43,10 +52,26 @@ Select 1:
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
 ```
 
-Given the following code:
+## Question 6
+
+Create a variable and store the string "pizza" in it
 
 ```js
-var names = ["Mary", "Tom", "Sue", "Bobby"]
+answer goes here
+```
+
+## Question 7
+
+Write a function that takes 3 arguments(numbers) that finds the sum of all three numbers
+
+```js
+answer goes here
+```
+
+## Given the following code:
+
+```js
+var names = ["Mary", "Tom", "Sue", "Bobby"];
 var clown = {
   name: "Joker",
   evil: true,
@@ -56,10 +81,10 @@ var clown = {
     evil: false,
     minions: ["Robin", "Alfred"]  
   }
-}
+};
 ```
 
-## Question 5
+## Question 8
 
 Access the value `"Sue"` out of the `names` array:
 
@@ -67,7 +92,7 @@ Access the value `"Sue"` out of the `names` array:
 answer goes here
 ```
 
-## Question 6
+## Question 9
 
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
@@ -75,7 +100,7 @@ Write a for loop such that you say hello(using `console.log`) to each name in th
 answer goes here
 ```
 
-## Question 7
+## Question 10
 
 Access the value `"Alfred"` out of the `clown` object
 
@@ -83,10 +108,4 @@ Access the value `"Alfred"` out of the `clown` object
 answer goes here
 ```
 
-## Question 8
 
-Write a function that takes 3 arguments(numbers) that finds the sum of all three numbers
-
-```js
-answer goes here
-```
