@@ -8,7 +8,7 @@ For the following quiz, there will be a series of questions or directions follow
 What is Git, what problem does it solve?
 
 ```
-answer goes here
+Git is a version control system, that solves the problem of keeping track of changes (for adding, deleting, and updating files) within a collaborative environment.
 
 ```
 
@@ -17,7 +17,7 @@ answer goes here
 Describe the homework submission process.
 
 ```
-answer goes here
+Fork the repo of the homework assignment. Copy the clone URL. In the terminal, do the command "git clone pasted_url" followed by "git checkout -b firstname_lastname_solution". Next, start making the necessary changes. After each major change, run "git status," "git add file_name," "git commit -m "message_for_commit" and then "git push". When an assignment is complete, open a pull request within the repo you originally forked.
 
 ```
 
@@ -26,7 +26,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+A fork is when you make a copy of someone else's existing repo. A clone is when you copy an existing repo locally.
 
 ```
 
@@ -35,7 +35,9 @@ answer goes here
 Describe the difference between a relative and absolute path, give an example of each.
 
 ```
-answer goes here
+A relative path has a path that's in relation to the current directory for a project (i.e. <img src="images/dog.jpg">)
+
+An absolute path refers to the complete and specific path for a file or folder (i.e. <img src="http://www.random.com/images/dog.jpg">)
 
 ```
 
@@ -46,7 +48,7 @@ What does the following selector do?  `ul.dropdown > li`?
 Select 1:
 ```
 // mark an x in the brackets for the correct answer
-[] Selects all li's which are directly inside a ul of class dropdown (children)
+[X] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
@@ -57,15 +59,17 @@ Select 1:
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var mostDelicious = "pizza";
 ```
 
 ## Question 7
 
-Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers. 
+Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers.
 
 ```js
-answer goes here
+function calculateIt(num1, num2, num3) {
+  return num1 + num2 + num3;
+}
 ```
 
 ## Given the following code:
@@ -89,7 +93,7 @@ var clown = {
 Access the value `"Sue"` out of the `names` array:
 
 ```js
-answer goes here
+names[2]
 ```
 
 ## Question 9
@@ -97,7 +101,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (i = 0; i < names.length; i++) {
+  console.log("Hello " + names[i]);
+}
 ```
 
 ## Question 10
@@ -105,7 +111,5 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1]
 ```
-
-
