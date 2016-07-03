@@ -8,7 +8,7 @@ For the following quiz, there will be a series of questions or directions follow
 What is Git, what problem does it solve?
 
 ```
-answer goes here
+Git is a version control tool used to share and track multiple instances of the same file. Without Git, the problem would be that you would have way too many copies of the same exact file. Without the Git technology, each version of the file you save would have to be an exact duplicate of the previous version, so for instance it would look something like this: fileV1 > fileV2 > fileV3 > fileV4final_copy.
 
 ```
 
@@ -17,8 +17,12 @@ answer goes here
 Describe the homework submission process.
 
 ```
-answer goes here
-
+1) Access the remote repository on Github
+2) Fork the repository to your own personal remote repository on Github
+3) Clone it to your local machine via git clone (into a directory that is not already an initialized repo)
+4) Work on the homework, save it, git add (to the staging area), git commit
+5) Git push your version back to your remote repository on Github
+6) Submit a pull request
 ```
 
 ## Question 3
@@ -26,8 +30,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
-
+A fork copies the repo to your REMOTE repository. Cloning takes the repo down from the remote repository to your local machine.
 ```
 
 ## Question 4
@@ -35,8 +38,9 @@ answer goes here
 Describe the difference between a relative and absolute path, give an example of each.
 
 ```
-answer goes here
-
+A relative path is a path that is relative to what directory you are currently in. An absolute path always starts at the highest level, and gets more specific pointing towards the target.
+Relative path: cd ../.. would move up two directories from your current working directory
+Absolute path: /Users/Tyler/Pictures would access the Pictures directory
 ```
 
 ## Question 5
@@ -46,7 +50,7 @@ What does the following selector do?  `ul.dropdown > li`?
 Select 1:
 ```
 // mark an x in the brackets for the correct answer
-[] Selects all li's which are directly inside a ul of class dropdown (children)
+[x] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
@@ -56,21 +60,25 @@ Select 1:
 
 Create a variable and store the string "pizza" in it
 
-```js
-answer goes here
+```
+var foodType = "pizza";
 ```
 
 ## Question 7
 
-Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers. 
+Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers.
 
-```js
-answer goes here
+```
+
+function calculator (num1, num2, num3) {
+  return num1 + num2 + num3;
+}
+
 ```
 
 ## Given the following code:
 
-```js
+```
 var names = ["Mary", "Tom", "Sue", "Bobby"];
 var clown = {
   name: "Joker",
@@ -88,24 +96,24 @@ var clown = {
 
 Access the value `"Sue"` out of the `names` array:
 
-```js
-answer goes here
+```
+names[2];
 ```
 
 ## Question 9
 
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
-```js
-answer goes here
+```
+for (var i = 0; i < names.length; i++) {
+  console.log("hello " + names[i]);
+}
 ```
 
 ## Question 10
 
 Access the value `"Alfred"` out of the `clown` object
 
-```js
-answer goes here
 ```
-
-
+clown.enemy.minions[1];
+```
