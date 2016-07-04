@@ -43,6 +43,9 @@ Describe the difference between a relative and absolute path, give an example of
 ```
 Absolute path is the path that contains the root directory while the relative path points to the current directory.
 
+Absolute: http://www.google.com/images/sky.jpg
+Relative: img/sky.jpg
+
 ```
 
 ## Question 5
