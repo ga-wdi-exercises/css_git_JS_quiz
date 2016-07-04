@@ -8,7 +8,7 @@ For the following quiz, there will be a series of questions or directions follow
 What is Git, what problem does it solve?
 
 ```
-answer goes here
+Git is one of the most popular version control softwares. It solves the problem of having to save and resave new versions of documents that are in progress. Two key points where it really helps is working with teams and when merging documents. 
 
 ```
 
@@ -17,7 +17,7 @@ answer goes here
 Describe the homework submission process.
 
 ```
-answer goes here
+Homework assignments are forked off of GA-WDI's Github, onto our own githubs, then they are cloned to our local machines where we make our own edits and then push them back to our own githubs. Then we submit a pull request which is how we "turn it in". 
 
 ```
 
@@ -26,7 +26,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+Forks are splitting off an identical version of the original code and saving it to our remote/Github. Cloning is copying a repo onto our local machines. 
 
 ```
 
@@ -35,7 +35,9 @@ answer goes here
 Describe the difference between a relative and absolute path, give an example of each.
 
 ```
-answer goes here
+A relative path is one which is only found by referencing the files around it. Like when we are linking a "STYLES.CSS" file in HTML; Styles.css is only relevant to other files in the same directory. 
+
+An absolute path is one that shows the direct heirarchy to the root directory i.e. users/chase/wdi/homework/css_quiz
 
 ```
 
@@ -48,7 +50,7 @@ Select 1:
 // mark an x in the brackets for the correct answer
 [] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
-[] Selects all ul's of class dropdown, as well as the children elements that are li's
+[X] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
 ```
 
@@ -57,7 +59,7 @@ Select 1:
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var favFood = "pizza";
 ```
 
 ## Question 7
@@ -65,7 +67,11 @@ answer goes here
 Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers. 
 
 ```js
-answer goes here
+var numCrunch = function (num1, num2, num3) {
+return (num1 + num2 +num3);
+}
+console.log(numCrunch(10, 5, 20)); 
+
 ```
 
 ## Given the following code:
@@ -89,7 +95,7 @@ var clown = {
 Access the value `"Sue"` out of the `names` array:
 
 ```js
-answer goes here
+names[2]
 ```
 
 ## Question 9
@@ -97,7 +103,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (i = 0; i < names.length; i++) {
+console.log(names[i]);
+};
 ```
 
 ## Question 10
@@ -105,7 +113,8 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1]
+
 ```
 
 
