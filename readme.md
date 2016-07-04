@@ -8,7 +8,7 @@ For the following quiz, there will be a series of questions or directions follow
 What is Git, what problem does it solve?
 
 ```
-answer goes here
+It solves the problem of version control, for individuals and teams.
 
 ```
 
@@ -17,7 +17,7 @@ answer goes here
 Describe the homework submission process.
 
 ```
-answer goes here
+Originally: fork, clone, open & edit, git add & commit, pull request. Recently we found out we need to fork, clone, checkout and create a new branch saving our files under firstname_lastname_solution.
 
 ```
 
@@ -26,7 +26,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+A fork allows you to make a copy of a repo on a different GitHub account and you can make pull requests on it. A clone makes a copy on of a remote repo locally.
 
 ```
 
@@ -35,7 +35,7 @@ answer goes here
 Describe the difference between a relative and absolute path, give an example of each.
 
 ```
-answer goes here
+An absolute path points us to a file or folder based on a root starting point (eg /Users/jacahn/wdi/quizzes), while a relative path points us from the current working directory (e.g. ../quizzes)
 
 ```
 
@@ -46,7 +46,7 @@ What does the following selector do?  `ul.dropdown > li`?
 Select 1:
 ```
 // mark an x in the brackets for the correct answer
-[] Selects all li's which are directly inside a ul of class dropdown (children)
+[x] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
@@ -57,15 +57,18 @@ Select 1:
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var food = "pizza"
 ```
 
 ## Question 7
 
-Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers. 
+Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers.
 
 ```js
-answer goes here
+var sum = function(num1, num2, num3){
+  return num1 + num2 + num3;
+}
+sum(10,10,10);
 ```
 
 ## Given the following code:
@@ -89,7 +92,7 @@ var clown = {
 Access the value `"Sue"` out of the `names` array:
 
 ```js
-answer goes here
+names[2]
 ```
 
 ## Question 9
@@ -97,7 +100,10 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+var names = ["Mary", "Tom", "Sue", "Bobby"]
+	for(var i=0; i<names.length; i++){
+  	console.log("Hello, " + names[i])
+	}
 ```
 
 ## Question 10
@@ -105,7 +111,5 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1]
 ```
-
-
