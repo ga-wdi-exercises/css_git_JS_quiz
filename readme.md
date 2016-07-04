@@ -8,7 +8,8 @@ For the following quiz, there will be a series of questions or directions follow
 What is Git, what problem does it solve?
 
 ```
-answer goes here
+Git is a tool that helps developers collaborate. It solves the version control problem.
+It allows us to track changes of files. It allows us to navigate to different states of a project, to go back to an earlier state or experiment with adding features without risking causing irreversible problems to the code that's already there.
 
 ```
 
@@ -17,7 +18,7 @@ answer goes here
 Describe the homework submission process.
 
 ```
-answer goes here
+Fork the homework from GA's remote repository: this creates our own remote repository. Clone our own remote repository to make a local repository. Do the homework. Add the changes to the staging area. Commit the changes to the local repository. Push the local repository to the remote repository. Submit a pull request.
 
 ```
 
@@ -26,7 +27,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+A fork creates a remote repository that is associated with your own github account. It creates a copy that you can push to should you clone it and make changes. A clone makes a repository locally on your computer.
 
 ```
 
@@ -35,7 +36,10 @@ answer goes here
 Describe the difference between a relative and absolute path, give an example of each.
 
 ```
-answer goes here
+A relative path describes how to get from the current working directory to another directory or file. An absolute path describes  how to get to a file or directory from the root or home directory. An example of an absolute path:
+/Users/marc/wdi/quizzes/css_git_JS_quiz/readme.md
+An example of a relative path:
+./quizzes/css_git_JS_quiz/readme.md
 
 ```
 
@@ -46,7 +50,7 @@ What does the following selector do?  `ul.dropdown > li`?
 Select 1:
 ```
 // mark an x in the brackets for the correct answer
-[] Selects all li's which are directly inside a ul of class dropdown (children)
+[x] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
@@ -57,15 +61,17 @@ Select 1:
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var food = "pizza";
 ```
 
 ## Question 7
 
-Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers. 
+Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers.
 
 ```js
-answer goes here
+function add(x,y,z) {
+  return x + y + z;
+}
 ```
 
 ## Given the following code:
@@ -89,7 +95,7 @@ var clown = {
 Access the value `"Sue"` out of the `names` array:
 
 ```js
-answer goes here
+names[2]
 ```
 
 ## Question 9
@@ -97,7 +103,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for(i in names) {
+  console.log("Hello, " + names[i]);
+}
 ```
 
 ## Question 10
@@ -105,7 +113,5 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1];
 ```
-
-
