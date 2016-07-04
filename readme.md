@@ -8,7 +8,7 @@ For the following quiz, there will be a series of questions or directions follow
 What is Git, what problem does it solve?
 
 ```
-answer goes here
+version control system. Helps track your work and the different versions you make, allows multiply people to work on the same program.
 
 ```
 
@@ -17,7 +17,7 @@ answer goes here
 Describe the homework submission process.
 
 ```
-answer goes here
+fork that shit (to your github). clone that shit (to your local repo). work on that shit (on your local repo). push that shit(to you remote repo on github). then pull request that shit(from your github which lets the github user from which you originally forked the repo from, know that you have made changes and they should take a look).
 
 ```
 
@@ -26,7 +26,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+fork copies a repo from someone else github to your own(remote repo). Cloning a repo copies that repo to your computer(local repo)
 
 ```
 
@@ -35,7 +35,8 @@ answer goes here
 Describe the difference between a relative and absolute path, give an example of each.
 
 ```
-answer goes here
+absolute path - is the location of a file or directory beginning from the root directory and containing all subdirectories leading to the current working directory and or file.
+relative path - is the location of a file or directory beginning from your current location, where ever that maybe.
 
 ```
 
@@ -46,7 +47,7 @@ What does the following selector do?  `ul.dropdown > li`?
 Select 1:
 ```
 // mark an x in the brackets for the correct answer
-[] Selects all li's which are directly inside a ul of class dropdown (children)
+[X] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
@@ -57,15 +58,17 @@ Select 1:
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var andy = 'pizza';
 ```
 
 ## Question 7
 
-Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers. 
+Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers.
 
 ```js
-answer goes here
+function addThree(a, b, c) {
+  return a + b + c;
+};
 ```
 
 ## Given the following code:
@@ -89,7 +92,7 @@ var clown = {
 Access the value `"Sue"` out of the `names` array:
 
 ```js
-answer goes here
+names[2];
 ```
 
 ## Question 9
@@ -97,7 +100,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (i = 0; i < names.length; i++) {
+  console.log("hello", names[i]);
+};
 ```
 
 ## Question 10
@@ -105,7 +110,7 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1];
 ```
 
 
