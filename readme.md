@@ -8,7 +8,7 @@ For the following quiz, there will be a series of questions or directions follow
 What is Git, what problem does it solve?
 
 ```
-answer goes here
+Git is a way for a group to effectively work on the same files. It provides version control for large projects by allowing users to compare versions or undo changes or revert back to a previous version of their code.
 
 ```
 
@@ -17,7 +17,7 @@ answer goes here
 Describe the homework submission process.
 
 ```
-answer goes here
+Fork and clone assignment from github, complete work, adding and committing as usual, then, when finished, push to github and submit as a pull request to the appropriate repo.
 
 ```
 
@@ -26,7 +26,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+Forking makes a copy of the repo under your github username, while cloning sends a copy to your local computer.
 
 ```
 
@@ -49,7 +49,7 @@ Select 1:
 [] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
-[] Selects all ul's of class dropdown, only if their children are exclusively li's
+[x] Selects all ul's of class dropdown, only if their children are exclusively li's
 ```
 
 ## Question 6
@@ -57,15 +57,17 @@ Select 1:
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+var pizza = ["pizza"];
 ```
 
 ## Question 7
 
-Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers. 
+Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers.
 
 ```js
-answer goes here
+var add = function (a, b, c)  {
+  return (a + b + c);
+};
 ```
 
 ## Given the following code:
@@ -89,7 +91,7 @@ var clown = {
 Access the value `"Sue"` out of the `names` array:
 
 ```js
-answer goes here
+names[2];
 ```
 
 ## Question 9
@@ -97,7 +99,9 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+for (var i = 0; i < names.length; i++) {
+    console.log("Hello, " + names[i]);
+}
 ```
 
 ## Question 10
@@ -105,7 +109,5 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+clown.enemy.minions[1];
 ```
-
-
