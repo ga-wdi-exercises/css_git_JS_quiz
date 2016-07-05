@@ -116,7 +116,7 @@ names[2]
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-for (i=0; i<names.size; i++) {
+for (i=0; i<names.length; i++) {
   console.log('Hello ' + names[i]);
 }
 ```
