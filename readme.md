@@ -8,7 +8,8 @@ For the following quiz, there will be a series of questions or directions follow
 What is Git, what problem does it solve?
 
 ```
-answer goes here
+
+Git is an online resource that allows people to share and edit eachothers codes. 
 
 ```
 
@@ -17,7 +18,7 @@ answer goes here
 Describe the homework submission process.
 
 ```
-answer goes here
+Fork (copy onto github account) and clone repo (clone in terminal in correct directory [not repository]). Do homework. When ready to submit, git add blank.txt, or git add ., which is not the best proactice but it will add everything new at once. Git commit, then git push to origin master. Create new pull request in github, enter homework details, and then submit. 
 
 ```
 
@@ -26,7 +27,7 @@ answer goes here
 What is the difference between a fork and a clone?
 
 ```
-answer goes here
+a fork copy's the homework into your github account, and a clone copies the homework to the computer (so you will see the folder show up in your computer files). 
 
 ```
 
@@ -35,7 +36,7 @@ answer goes here
 Describe the difference between a relative and absolute path, give an example of each.
 
 ```
-answer goes here
+a relative path is based on where a file starts, and an absolute path is always from the root. 
 
 ```
 
@@ -46,7 +47,7 @@ What does the following selector do?  `ul.dropdown > li`?
 Select 1:
 ```
 // mark an x in the brackets for the correct answer
-[] Selects all li's which are directly inside a ul of class dropdown (children)
+[X] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
@@ -57,7 +58,9 @@ Select 1:
 Create a variable and store the string "pizza" in it
 
 ```js
-answer goes here
+
+var food = ("pizza")
+
 ```
 
 ## Question 7
@@ -65,7 +68,9 @@ answer goes here
 Write a function that takes 3 arguments(numbers) that calculates and returns the sum of all three numbers. 
 
 ```js
-answer goes here
+
+
+
 ```
 
 ## Given the following code:
@@ -89,7 +94,10 @@ var clown = {
 Access the value `"Sue"` out of the `names` array:
 
 ```js
-answer goes here
+
+names(2)
+
+
 ```
 
 ## Question 9
@@ -97,7 +105,12 @@ answer goes here
 Write a for loop such that you say hello(using `console.log`) to each name in the `names` array
 
 ```js
-answer goes here
+
+for (names = 0, 1, 2, 3) {
+	console.log ("Hello")
+	}
+	
+
 ```
 
 ## Question 10
@@ -105,7 +118,9 @@ answer goes here
 Access the value `"Alfred"` out of the `clown` object
 
 ```js
-answer goes here
+
+clown = minions(1)
+
 ```
 
 
